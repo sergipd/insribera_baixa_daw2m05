@@ -12,7 +12,7 @@ class EspinacaVictorGarcia extends Verdura {
 
    function Espinaca() 
    {
-       $this->Verdura(true, "verde");
+       $this->Verdura(true, "Vgarcia");
    }
 
    function cocinarla() 

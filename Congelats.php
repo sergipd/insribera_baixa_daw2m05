@@ -2,7 +2,7 @@
 
 
 
-class Verdura {
+class Congelats {
    var $comestible;
    var $color;
    

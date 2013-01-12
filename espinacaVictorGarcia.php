@@ -24,7 +24,9 @@ class EspinacaVictorGarcia extends Verdura {
    {
        return $this->concinada;
    }
-   
+   function JonathanPrado() {
+        $this->cocinada = "Jonathan Prado";
+    }
 } 
 
 ?>

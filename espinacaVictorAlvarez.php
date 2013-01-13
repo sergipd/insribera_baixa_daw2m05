@@ -1,42 +1,32 @@
 <?php
 
-
 /**
  * Description of Espinacas
  *
- * @author mon
+ * @author victor
  */
 class EspinacaVictorAlvarez extends Verdura {
 
-   var $cocinada = false;
+   var $concinada = false;
 
    function Espinaca() 
    {
-
-       $this->Verdura(true, "Valvarez");
-
+       $this->Verdura(true, "verde");
    }
 
    function cocinarla() 
    {
-       $this->cocinada = true;
+       $this->concinada = true;
    }
 
    function esta_cocinada() 
    {
-       return $this->cocinada;
-   }
-   function JonathanPrado() {
-        $this->cocinada = "Jonathan Prado";
+       return $this->concinada;
    }
    
-   function Vgarcia() {
-        $this->cocinada = "Vgarcia";
-   }    
-   
-   function JuanRa() {
-        $this->cocinada = "JuanRa";
+   function victorAlvarez()
+   {
+       $this->concinada = "Alvarez";
    }
-} 
 
-?>
+}

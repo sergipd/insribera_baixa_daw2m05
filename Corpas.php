@@ -25,7 +25,12 @@ class Espinaca extends Verdura {
        return $this->concinada;
    }
    
+function corpas() 
+   {
+       return $this->corpas;
+   }
  
+   
 } 
 
 ?>

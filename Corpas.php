@@ -10,6 +10,7 @@ class Espinaca extends Verdura {
 
    var $concinada = false;
    var $_corpas;
+   
    function Espinaca() 
    {
        $this->Verdura(true, "corpas");

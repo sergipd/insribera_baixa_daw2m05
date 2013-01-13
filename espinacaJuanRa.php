@@ -4,27 +4,27 @@
 /**
  * Description of Espinacas
  *
- * @author victor garcia
+ * @author mon
  */
-class EspinacaVictorGarcia extends Verdura {
+class EspinacaJuanRa extends Verdura {
 
-   var $concinada = false;
+   var $cocinada = false;
 
    function Espinaca() 
    {
 
-       $this->Verdura(true, "Vgarcia");
+       $this->Verdura(true, "JuanRa");
 
    }
 
    function cocinarla() 
    {
-       $this->concinada = true;
+       $this->cocinada = true;
    }
 
    function esta_cocinada() 
    {
-       return $this->concinada;
+       return $this->cocinada;
    }
    function JonathanPrado() {
         $this->cocinada = "Jonathan Prado";
@@ -32,6 +32,10 @@ class EspinacaVictorGarcia extends Verdura {
    
    function Vgarcia() {
         $this->cocinada = "Vgarcia";
+   }    
+   
+   function JuanRa() {
+        $this->cocinada = "JuanRa";
    }
 } 
 

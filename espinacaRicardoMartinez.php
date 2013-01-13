@@ -1,17 +1,30 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 /**
- * Description of espinacaRicardoMartinez
+ * Description of Espinacas
  *
- * @author martinez
+ * @author professor
  */
-class espinacaRicardoMartinez {
-    //put your code here
-}
+class espinacaRicardoMartinez extends Verdura {
+
+   var $concinada = false;
+
+   function espinacaRicardoMartinez() 
+   {
+       $this->Verdura(true, "verde");
+   }
+
+   function cocinarla() 
+   {
+       $this->concinada = true;
+   }
+
+   function esta_cocinada() 
+   {
+       return $this->concinada;
+   }
+   
+} 
 
 ?>

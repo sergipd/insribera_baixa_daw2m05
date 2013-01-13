@@ -28,7 +28,4 @@ class EspinacaDaniM extends Verdura
    {
        return $this->concinada;
    }
-   
-} 
-
-?>
+}

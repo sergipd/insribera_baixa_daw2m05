@@ -11,7 +11,7 @@ class EspinacaCarlosBallesteros extends Verdura {
 
    function Espinaca() 
    {
-       $this->Verdura(true, "Valvarez");
+       $this->Verdura(true, "Ballesteros");
    }
 
    function cocinarla() 
@@ -29,4 +29,8 @@ class EspinacaCarlosBallesteros extends Verdura {
        $this->concinada = "Ballesteros";
    }
 
+      function Ricardo()
+   {
+       $this->concinada = "Ballesteros";
+   }
 }

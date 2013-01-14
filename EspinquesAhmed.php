@@ -29,14 +29,14 @@ class EspinquesAhmed extends Verdura {
        return $this->concinada;
    }
    
-   function CarlosBallesteros()
+   function rubenCorpas()
    {
-       $this->concinada = "Ballesteros";
+       $this->concinada = "Cooorpas";
    }
 
-   function RicardoMartinez()
+   function AhmedChtebat()
    {
-       $this->concinada = "Ricardo Martinez";
+       $this->concinada = "ahmed chtebat";
    }
 }
 

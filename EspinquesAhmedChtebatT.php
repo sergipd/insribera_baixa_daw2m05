@@ -33,6 +33,15 @@ function AhmedChtebat()
     $this->concinada= "chtebat";
     
     }
+    
+    
+    function rubenCorpas()
+   {
+    $this->concinada= "chtebat";
+    
+    }
+    
+    
    
  }
 

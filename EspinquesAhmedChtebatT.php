@@ -28,6 +28,11 @@ class EspinquesAhmedChtebatT extends Verdura {
    {
        return $this->concinada;
    }
+function AhmedChtebat()
+   {
+    $this->concinada= "chtebat";
+    
+    }
    
  }
 
